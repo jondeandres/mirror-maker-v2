@@ -1,0 +1,6 @@
+FROM confluentinc/cp-kafka:5.4.1
+
+
+RUN apt-get update -y && \
+    apt-get install emacs -y
+
